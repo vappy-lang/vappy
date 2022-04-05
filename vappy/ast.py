@@ -119,8 +119,12 @@ class BinOp(Expr):
     def exec(self, scope):
         if self.op == "+":
             return self.e1.exec(scope) + self.e2.exec(scope)
-        if self.op == "-":
+        elif self.op == "-":
             return self.e1.exec(scope) - self.e2.exec(scope)
+        elif self.op == "*":
+            return self.e1.exec(scope) * self.e2.exec(scope)
+        elif self.op == "/":
+            return self.e1.exec(scope) // self.e2.exec(scope)
         elif self.op == "==":
             return self.e1.exec(scope) == self.e2.exec(scope)
         elif self.op == "<":

@@ -12,16 +12,17 @@ pip install -r requirements.txt
 
 Run a sample program:
 ```
-python -m main hey_guys.vp
+python -m main examples/hey_guys.vp
 ```
 
 Print the first 20 Fibonacci numbers:
 ```
-python -m main fib.vp
+python -m main examples/fib.vp
 ```
 
 ### Note
 This was created for the [Stupid Shit That No One Needs & Terrible Ideas Hackathon](https://stupidhackathon.com/).
 As such, it's very much in a hackathon-demo state.
+Some things don't work perfectly, and debugging is nearly impossible.
 I might polish it up a bit at some point, but if you want, 
 feel free to submit a PR!

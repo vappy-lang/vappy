@@ -61,7 +61,7 @@ Also, if you ensure that [boolean expr],
     [If-statements]
 you can literally make your Vaporeon turn white.
     [Else-statements]
-Vaporeon is literally built for human dick.
+Vaporeon is built for human dick.
 ```
 
 ## Loops
